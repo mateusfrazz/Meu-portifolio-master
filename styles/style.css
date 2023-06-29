@@ -1,0 +1,86 @@
+/*importando a fonte ultilizada*/
+@font-face {
+    font-family:"MinhaFonte";
+    src: url("/fontes/8-bit_arcade_in-webfont.woff") format("woff")
+}
+         
+/* formatação geral*/
+
+*{
+    margin:0 ;
+    padding:0;
+}
+/*definindo as cores usadas*/
+
+:root{
+--cor-primary-background: #201533;
+--cor-text-primary: white;
+--cor-acentual-text: #F6D61F;
+--cor-rodape: rgba(26, 25, 25, 0.48);
+}
+
+body{
+    font-family:"MinhaFonte", Arial, sans-serif;
+    background-color:var(--cor-primary-background);
+}
+
+#container-principal{
+    font-size: 30px;
+    background-color: var(--cor-primary-background);
+    padding-top: 15px;
+    height: 1010px;
+}
+/*inicio da nav-bar*/
+
+ul{
+    gap: 47px;
+}
+
+.nav-link{
+    color: #FBFBFB;
+    text-transform: uppercase;
+}
+/*final da nav-bar*/
+
+#container-descrição{
+    padding-top: 120px;
+}
+/*estilização do perfil*/
+.perfil-text{
+    color: white;
+}
+
+.texto-apresentação{
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: white
+}
+
+.texto-descrição{
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-primary{
+    width: 160px;
+    height: 76px;
+    border-radius: 17px;
+    background: #F6D61F;
+    border: none;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #020202;
+    
+}
+
+::-webkit-scrollbar{
+    background-color: #201533;
+}
+
