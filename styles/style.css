@@ -28,18 +28,26 @@ body{
     font-size: 30px;
     background-color: var(--cor-primary-background);
     padding-top: 15px;
+    max-width: 1400px;
     height: 1010px;
 }
 /*inicio da nav-bar*/
 
+#textoNavbar{
+    background-color: var(--cor-primary-background)
+}
+
 ul{
     gap: 47px;
+    
 }
 
 .nav-link{
-    color: #FBFBFB;
+    color: #000000;
     text-transform: uppercase;
 }
+
+
 /*final da nav-bar*/
 
 #container-descrição{
@@ -99,12 +107,19 @@ ul{
 
     
 }
+
+#dropdownMenu2{
+    background-color:#201533
+}
+
+
 /*
 #rodape{
     background: rgba(26, 25, 25, 0.48);
 }
+*/
 
 ::-webkit-scrollbar{
-    background-color: #201533;
+    background-color: var(--cor-primary-background);
 }
-/*
+
