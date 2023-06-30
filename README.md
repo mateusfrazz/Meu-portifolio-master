@@ -15,4 +15,4 @@
 * Bootstrap
 
 <h2>Link do Projeto :<h2> 📌
-[https://relaxed-lebkuchen-654155.netlify.app](https://venerable-lebkuchen-d8ee7d.netlify.app)https://venerable-lebkuchen-d8ee7d.netlify.app
+[https://relaxed-lebkuchen-654155.netlify.app](https://venerable-lebkuchen-d8ee7d.netlify.app)https://venerable-lebkuchen-d8ee7d.netlify.app](https://regal-churros-63e0a7.netlify.app)https://regal-churros-63e0a7.netlify.app
