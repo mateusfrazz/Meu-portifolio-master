@@ -43,11 +43,22 @@ ul{
 /*final da nav-bar*/
 
 #container-descrição{
-    padding-top: 120px;
+    padding-top: 80px;
 }
 /*estilização do perfil*/
 .perfil-text{
-    color: white;
+    color: #FFF;
+    font-size: 40px;
+    font-family: MinhaFonte;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#icones{
+    display: flex;
+    gap: 20px;
+    
 }
 
 .texto-apresentação{
@@ -55,32 +66,45 @@ ul{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    color: white
+    color: white;
+    text-shadow: 4px 4px 4px rgb(3, 3, 3);
 }
 
 .texto-descrição{
     color: #FFF;
+    text-shadow: 10px 10px 10px rgb(3, 3, 3);
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
+/*iniciando estilização botao*/
+
+#botao-principal{
+    padding-top: 30px;
+}
+
 .btn-primary{
     width: 160px;
-    height: 76px;
+    height: 50px;
     border-radius: 17px;
     background: #F6D61F;
     border: none;
-    font-size: 37px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     color: #020202;
+
     
+}
+/*
+#rodape{
+    background: rgba(26, 25, 25, 0.48);
 }
 
 ::-webkit-scrollbar{
     background-color: #201533;
 }
-
+/*
