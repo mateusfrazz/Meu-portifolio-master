@@ -29,7 +29,7 @@ body{
     background-color: var(--cor-primary-background);
     padding-top: 15px;
     max-width: 1400px;
-    height: 1010px;
+    height: 900px;
 }
 /*inicio da nav-bar*/
 
@@ -67,8 +67,6 @@ ul{
 
 .col-4{
     text-align: center;
-    
-    
 }
 
 .perfil-text{
@@ -78,6 +76,10 @@ ul{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.icons{
+    text-decoration: none;
 }
 
 .texto-apresentação{

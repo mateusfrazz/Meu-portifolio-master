@@ -3,15 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Bootstrap-->
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    /> -->
-    <!--javascript-->
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -60,19 +51,19 @@
             <div class="collapse navbar-collapse" id="textoNavbar">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Sobre mim </a>
+                  <a class="nav-link" href="/index.html">Sobre mim </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CURRICULO</a>
+                  <a class="nav-link" href="/curriculo.html">CURRICULO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SKILLS</a>
+                  <a class="nav-link" href="/skils.html">SKILLS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PROJETOS</a>
+                  <a class="nav-link" href="/projetos.html">PROJETOS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONTATO</a>
+                  <a class="nav-link" href="/contato.html">CONTATO</a>
                 </li>
               </ul>
             </div>
@@ -87,8 +78,15 @@
             alt="imagem-perfil"
           />
           <h1 class="perfil-text">Mateus Frazao</h1>
-          <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
-          <i class="fa-brands fa-github" style="color: #f6f7f8"></i>
+          <a
+            href="https://www.linkedin.com/in/mateus-frazão-607b35174/"
+            class="icons"
+          >
+            <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+          </a>
+          <a href="https://github.com/mateusfrazao1">
+            <i class="fa-brands fa-github" style="color: #f6f7f8"></i>
+          </a>
         </div>
         <div class="col-6">
           <h1 class="texto-apresentação">portfolio web</h1>
@@ -101,15 +99,24 @@
             <a class="btn btn-primary" href="#" role="button">PLAY </a>
           </div>
         </div>
-        <div class="row">
-          <div class="col" id="rodape"></div>
-        </div>
+        <!--------inicio do rodape------->
       </div>
     </div>
-    <footer class="p-3 bg-dark text-light text-center">
-      <h1>todos os direitos reservados.</h1>
-      <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
-      <i class="fa-brands fa-github" style="color: #f6f7f8"></i>
+    <footer class="p-3 bg-dark text-light">
+      <div class="row">
+        <div class="col-2">
+          <p>
+            &copy; 2023<br />
+            De Mateus Frazao<br />
+            todos os direitos Reservados<br />
+          </p>
+          <!-- <div class="col-5">
+            <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+          </div> -->
+        </div>
+      </div>
     </footer>
+    <!-----fim do rodape------>
   </body>
 </html>
