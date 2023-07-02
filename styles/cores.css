@@ -1,0 +1,23 @@
+
+/*definindo cores a serem usadas*/
+.bg-primary{
+    background-color:#201533 !important;
+}
+
+.bg-secondary{
+    background-color:  rgba(26, 25, 25, 0.48) !important;
+}
+
+.bg-success{
+    background-color: #F6D61F !important;
+}
+
+/* definindo cores de texto*/
+
+.text-primary {
+    background-color: aliceblue;
+}
+
+.text-secondary{
+    background-color: #F6D61F;
+}

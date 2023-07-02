@@ -15,47 +15,52 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/styles/projetos.css" />
+    <link rel="stylesheet" href="/styles/cores.css" />
 
     <title>Projetos</title>
   </head>
   <body>
-    <div class="container-fluid" id="container-principal">
-        <div class="row">
-          <div class="col fixed-top" id="nav-bar">
-            <nav class="navbar navbar-expand-lg navbar">
-              <!-- inicio do menu hamburguer -->
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#textoNavbar"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="textoNavbar">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Sobre mim </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/curriculo.html">CURRICULO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/skils.html">SKILLS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/projetos.html">PROJETOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/contato.html">CONTATO</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
- 
+    <div class="container" id="container-principal">
+      <div class="row">
+        <!----------------------inicio navbar--------------->
 
+        <div class="col fixed-top d-flex justify-content-center" id="nav-bar">
+          <nav class="navbar navbar-expand-lg navbar">
+            <!-- inicio do menu hamburguer -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#textoNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="textoNavbar">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="/index.html">Sobre mim </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/curriculo.html">CURRICULO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/skils.html">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/projetos.html">PROJETOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contato.html">CONTATO</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!----------------final da navbar----------------->
+      </div>
+      <div class="row"></div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

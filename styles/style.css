@@ -39,13 +39,14 @@ body{
     padding-left: 116px;
 }
 
+.active{
+    border-bottom: 1px solid #F6D61F;
+}
+
 .navbar-nav li.nav-item a.nav-link:hover {
     color: var(--cor-acentual-text); 
   }
 
-  #textoNavbar{
-    background-color: var(--cor-primary-background)
-}
 
 ul{
     gap: 47px;

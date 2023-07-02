@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family:"MinhaFonte";
+    src: url("/fontes/8-bit_arcade_in-webfont.woff") format("woff")
+}
+         
+/* formatação geral*/
+
+*{
+    margin:0 ;
+    padding:0;
+}
+/*definindo as cores usadas*/
+
+:root{
+--cor-primary-background: #201533;
+--cor-text-primary: white;
+--cor-acentual-text: #F6D61F;
+--cor-rodape: rgba(26, 25, 25, 0.48);
+}
+
+body{
+    font-family:"MinhaFonte", Arial, sans-serif;
+    background-color:var(--cor-primary-background);
+}
+
+#container-principal{
+    font-size: 30px;
+    background-color: var(--cor-primary-background);
+    padding-top: 15px;
+    max-width: 1400px;
+    height: 900px;
+}
+
+/* inicio navbar*/
+.active{
+    border-bottom: 1px solid #F6D61F;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: var(--cor-acentual-text);
+}
+
+ul{
+    gap: 47px; 
+}
+
+.nav-link{
+    color: #fcf9f9;
+    text-transform: uppercase;
+}
+
+/*final da nav-bar*/
