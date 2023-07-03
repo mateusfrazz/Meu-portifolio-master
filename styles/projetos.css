@@ -1,3 +1,4 @@
+/* importando a fonte do projeto */
 
 @font-face {
     font-family:"MinhaFonte";
@@ -51,3 +52,11 @@ ul{
 }
 
 /*final da nav-bar*/
+
+#main{
+    padding-top: 120px;
+}
+
+#cards-main-content{
+    padding-top: 120px;
+}
