@@ -5,8 +5,7 @@
 
 <h1> Pagina Inicial ♦️ </h1><br>
 
-![Captura de Tela (42)](https://github.com/mateusfrazao1/Meu-portifolio-master/assets/80266733/d56f6604-aabd-4b6f-80bd-72e8aadb7d4d)
-
+https://fabulous-crostata-16a46d.netlify.app/index.html
 
 <h2>Tecnologias utilizadas:📚<h2>
 * HTML<br>
