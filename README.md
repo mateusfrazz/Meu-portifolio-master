@@ -7,7 +7,8 @@ https://github.com/mateusfrazao1/Meu-portifolio-master/issues/1#issuecomment-161
 
 <h1> Pagina Inicial ♦️ </h1><br>
 
-https://fabulous-crostata-16a46d.netlify.app/index.html
+![Captura de Tela (42)](https://github.com/mateusfrazao1/Meu-portifolio-master/assets/80266733/25f0e79d-47b3-4e81-9ffb-97a78cbd85cd)
+
 
 <h2>Tecnologias utilizadas:📚<h2>
 * HTML<br>
