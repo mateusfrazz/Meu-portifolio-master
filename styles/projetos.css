@@ -4,7 +4,8 @@
     font-family:"MinhaFonte";
     src: url("/fontes/8-bit_arcade_in-webfont.woff") format("woff")
 }
-         
+ 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Open+Sans:ital,wght@0,500;0,800;1,600&display=swap') ; 
 /* formatação geral*/
 
 *{
@@ -30,7 +31,7 @@ body{
     background-color: var(--cor-primary-background);
     padding-top: 15px;
     max-width: 1400px;
-    height: 900px;
+    height: auto;
 }
 
 /* inicio navbar*/
@@ -63,4 +64,16 @@ ul{
 
 #cards-main-content{
     padding-top: 200px;
+}
+
+iframe{
+    width: 20px;
+    height: 200px;
+    border: none;
+}
+
+@media screen and (max-width: 1128px){
+    cards-main-content{
+        
+    }
 }

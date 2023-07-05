@@ -3,6 +3,7 @@
     src: url("/fontes/8-bit_arcade_in-webfont.woff") format("woff")
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Open+Sans:ital,wght@0,500;0,800;1,600&display=swap') ; 
          
 /* formatação geral*/
 
@@ -22,6 +23,8 @@
 body{
     font-family:"MinhaFonte", Arial, sans-serif;
     background-color:var(--cor-primary-background);
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #container-principal{
@@ -29,12 +32,17 @@ body{
     background-color: var(--cor-primary-background);
     padding-top: 15px;
     max-width: 1400px;
-    height: 1200px;
+    height: 1550px;
+    
 }
 
 /* inicio navbar*/
 .active{
     border-bottom: 1px solid #F6D61F;
+}
+
+navbar{
+    position: fixed;
 }
 
 .navbar-nav li.nav-item a.nav-link:hover {
@@ -58,23 +66,52 @@ ul{
     
 }
 
-#text-principal{
-    font-size: 120px;
+#content-card{
+    margin-top: 120px;
 }
 
-
-#skills-description{
+#text-principal{
+    font-size: 120px;
     padding-top: 120px;
-    padding-left: 40px;
 }
 
 #text-description-perfile{
     font-size: 30px;
 }
 
-
-
-#js-text{
-    padding-top:35px ;
+#cards{
+   padding-top: 20px;
+   font-family: 'Josefin Sans', sans-serif !important;
 }
 
+.card-text, .card-{
+    font-size: 12px;
+}
+
+#skills-description{
+    font-family: 'Josefin Sans', sans-serif !important;
+    padding-top: 200px;
+}
+
+#content-geral{
+    border-radius: 12px;
+
+}
+
+#TituloModalCentralizado{
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: #fcf9f9;
+}
+.modal-body{
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 17px;
+    color: #fcf9f9;
+}
+
+.modal-footer, .modal-body, .modal-header{
+    background-color: #201533;
+}
+
+#text-html{
+   font-size: 13px important!;
+}
