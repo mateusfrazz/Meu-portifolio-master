@@ -5,7 +5,7 @@
     src: url("/fontes/8-bit_arcade_in-webfont.woff") format("woff")
 }
 
-         
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Open+Sans:ital,wght@0,500;0,800;1,600&display=swap') ;      
 /* formatação geral*/
 
 *{
@@ -31,7 +31,7 @@ body{
     background-color: var(--cor-primary-background);
     padding-top: 15px;
     max-width: 1400px;
-    height: 900px;
+    height: 1200px;
 }
 
 /* inicio navbar*/
@@ -56,8 +56,6 @@ ul{
 
 #main{
     padding-top: 120px;
-    
-    
 }
 
 #text-principal{
@@ -74,8 +72,9 @@ ul{
     background-color: #252446;
     width: 800px;
     height: 300px;
-    font-size: 23px;
+    font-size: 20px;
     border-radius: 12px;
+    font-family: 'Josefin Sans' !important;
  
     
 }
@@ -84,11 +83,26 @@ ul{
     background-color: #252446;
     width: 800px;
     height: 300px;
-    font-size: 23px;
+    font-size: 20px;
     border-radius: 12px;
+    font-family: 'Josefin Sans' !important;
+    margin-top: 120px;
 }
 
 #text-curriculo-joetech-description{
     font-size: 20px;
     font-weight: 12px;
+    margin-top: 30px;
+}
+
+#text-curriculo-joetech-description-2{
+    margin-top:70px;
+}
+
+#box-content{
+    margin-top: 120px;
+}
+
+::-webkit-scrollbar{
+    background-color: #201533;
 }

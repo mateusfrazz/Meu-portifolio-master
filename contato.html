@@ -15,13 +15,13 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/skills.css" />
+    <link rel="stylesheet" href="/styles/contato.css" />
     <link rel="stylesheet" href="/styles/cores.css" />
 
     <title>Skills</title>
   </head>
   <body class="bg-primary">
-    <div class="container-fluid" id="container-principal">
+    <div class="container" id="container-principal">
       <div class="row fix-top" id="nav-bar">
         <!----------------------inicio navbar--------------->
         <div class="col-12 d-flex justify-content-center">
@@ -57,36 +57,47 @@
           </nav>
         </div>
       </div>
-      
-        <form>
-          <div class="row d-flex justify-content-center bg-info rounded" id="main">
-            <div class="col-5">
-              <input type="text" class="form-control" placeholder="Nome" />
+      <div class="row bg-info" id="main">
+        <div class="col pt-3 d-flex justify-content-center" id="main-content">
+          <form>
+            <div class="row">
+              <div class="col-7">
+                <label for="inputEmail4">Nome</label>
+                <input
+                  type="text"
+                  class="form-control text-primary"
+                  placeholder="Nome"
+                />
+              </div>
+              <div class="col-5">
+                <label for="inputEmail4">sobrenome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Sobrenome"
+                />
+              </div>
+              <div class="col-7 pt-">
+                <label for="inputEmail4">email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="seu email"
+                />
+              </div>
+              <div class="col-7 mt-4">
+                <label for="Textarea">Textarea</label>
+                <textarea
+                  class="form-control"
+                  id="validationTextarea"
+                  placeholder="Sua mensagem"
+                  required
+                ></textarea>
+              </div>
             </div>
-            <div class="col-5">
-              <input type="text" class="form-control" placeholder="Sobrenome" />
-            </div>
-            <div class="form-group col-5">
-              <label for="inputEmail4">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="inputEmail4"
-                placeholder="Email"
-              />
-            </div>
-            <div class="form-group col-5">
-              <label for="exampleFormControlTextarea1"
-                >Exemplo de textarea</label
-              >
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-          
-        </form>
+            <button type="button" class="btn btn-warning mt-5">Warning</button>
+          </form>
+        </div>
       </div>
     </div>
   </body>

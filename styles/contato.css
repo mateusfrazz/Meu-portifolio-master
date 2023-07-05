@@ -51,29 +51,14 @@ ul{
 }
 
 /*final da nav-bar*/
-
-#main {
-    padding-top: 120PX;
-    border-width: 1;
-    
+#main{
+    margin-top: 200px;
+    height: 500px;
+    width: 950px;
+    margin-left: 250px;
+    border-radius: 12px;
 }
 
-#text-principal{
-    font-size: 120px;
-}
-
-
-#skills-description{
-    padding-top: 120px;
-    padding-left: 40px;
-}
-
-#text-description-perfile{
-    font-size: 30px;
-}
-
-
-
-#js-text{
-    padding-top:35px ;
+label{
+    color: white;
 }
