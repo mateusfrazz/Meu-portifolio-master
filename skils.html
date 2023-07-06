@@ -24,7 +24,7 @@
     <div class="container-fluid" id="container-principal">
       <div class="row" id="nav-bar">
         <!----------------------inicio navbar--------------->
-        <div class="col-12 d-flex justify-content-center">
+        <div class="col-12 fixed-top d-flex justify-content-center">
           <nav class="navbar navbar-expand-lg navbar">
             <!-- inicio do menu hamburguer -->
             <button
@@ -64,10 +64,7 @@
       </div>
       <div class="row" id="skills-description">
         <!-- perfil-skils -->
-        <div
-          class="col-md-12 col-sm-12 col-xs-12 justify-content-center"
-          id="content-skills-perfile"
-        >
+        <div class="col-12" id="content-skills-perfile">
           <img src="/Images/ICONE-PERFIL (1).svg" alt="" />
         </div>
         <div class="col-3 mt-5" id="progress-bar-perfile">
@@ -99,8 +96,8 @@
 
       <div class="row mt-5" id="cards">
         <!-- card-js-1 -->
-        <div class="col">
-          <div class="card bg-info" style="width: 18rem" id="card-figma">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card bg-info" style="width: 16rem" id="card-figma">
             <img
               class="card-img-top bg-info"
               src="/Images/icons8-figma (1).svg"
@@ -112,75 +109,14 @@
                 O Figma é uma plataforma colaborativa para construção de design
                 de interfaces e protótipos
               </p>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#ExemploModalCentralizado"
-              >
-                Veja mais
-              </button>
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="ExemploModalCentralizado"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="TituloModalCentralizado"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="TituloModalCentralizado">
-                        Portifolio Web
-                      </h5>
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Fechar"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <iframe
-                          class="embed-responsive-item"
-                          src="/Images/Vídeo sem título ‐ Feito com o Clipchamp.mp4"
-                          allowfullscreen
-                        ></iframe>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                      <button type="button" class="btn btn-primary">
-                        <a
-                          class="text-white"
-                          href="https://www.figma.com/proto/pSYfIo8Fnd0FUaCrrcivFt/portfolio?type=design&node-id=9-27&t=5khLlsSlGZKLbPuh-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A27"
-                          >Visitar</a
-                        >
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- final modal 1 -->
             </div>
           </div>
         </div>
         <!-- final card-1 -->
 
         <!-- inicio card-2 -->
-        <div class="col">
-          <div class="card border-0" style="width: 18rem" id="card-html">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card border-0" style="width: 15rem" id="card-html">
             <img
               class="card-img-top bg-info border-0"
               src="/Images/icons8-html5 (1).svg"
@@ -192,74 +128,14 @@
                 HTML é a linguagem essencial para criar e estruturar páginas na
                 web, permitindo a adição de diversos conteúdos.
               </p>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#ModalCentralizado"
-              >
-                Veja mais
-              </button>
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="ModalCentralizado"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="ModalCentralizado"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="ModalCentralizado">
-                        Wikipedia
-                      </h5>
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal-html"
-                        aria-label="Fechar"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="responsive embed-responsive-16by9">
-                        <iframe
-                          class="embed-responsive-item"
-                          src="/Images/Vídeo sem título ‐ Feito com o Clipchamp.mp4"
-                          allowfullscreen
-                        ></iframe>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                      <button type="button" class="btn btn-primary">
-                        <a
-                          class="text-white"
-                          href="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal"
-                          >Visitar</a
-                        >
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
         <!-- final-card-2 -->
 
         <!-- inicio card 3 -->
-        <div class="col">
-          <div class="card border-0" style="width: 18rem">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card border-0" style="width: 15rem">
             <img
               class="card-img-top bg-info border-0"
               src="/Images/icons8-javascript.svg"
@@ -271,22 +147,23 @@
                 JavaScript é uma linguagem de programação usada para criar sites
                 interativos, permitindo interatividade e dinamismo nas páginas.
               </p>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#ExemploModalCentralizado"
-              >
-                Veja mais
-              </button>
             </div>
+            <!-- Botão para acionar modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#ExemploModalCentralizado"
+            >
+              Veja mais
+            </button>
           </div>
         </div>
         <!-- final-card-3 -->
 
         <!-- inicio card-4 -->
-        <div class="col">
-          <div class="card border-0" style="width: 18rem">
+        <div class="col-sm-3 col-md-4 col-lg-2">
+          <div class="card border-0" style="width: 15rem">
             <img
               class="card-img-top bg-info border-0"
               src="/Images/icons8-css.svg"
@@ -298,35 +175,26 @@
                 É uma linguagem de estilos utilizada para definir a aparência e
                 o layout de elementos em uma página web
               </p>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#ExemploModalCentralizado"
-              >
-                Veja mais
-              </button>
             </div>
           </div>
         </div>
       </div>
-      <footer class="p-3 bg-dark text-light">
-        <div class="row">
-          <div class="col-2">
-            <p>
-              &copy; 2023<br />
-              De Mateus Frazao<br />
-              todos os direitos Reservados<br />
-            </p>
-            <!-- <div class="col-5">
-              <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
-              <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
-            </div> -->
-          </div>
-        </div>
-      </footer>
     </div>
-
+    <footer class="p-2 bg-dark text-light">
+      <div>
+        <div>
+          <p>
+            &copy; 2023<br />
+            De Mateus Frazao<br />
+            todos os direitos Reservados<br />
+          </p>
+          <!-- <div class="col-5">
+            <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+          </div> -->
+        </div>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
