@@ -71,6 +71,7 @@
                   type="text"
                   class="form-control text-primary"
                   placeholder="Nome"
+                  id="nome"
                 />
               </div>
 
@@ -80,19 +81,21 @@
                   type="email"
                   class="form-control"
                   placeholder="seu email"
+                  id="email"
                 />
               </div>
               <div class="col-7 mt-4">
                 <label for="Textarea">Mensagem</label>
                 <textarea
                   class="form-control"
-                  id="validationTextarea"
                   placeholder="Sua mensagem"
                   required
+                  id="mensagem"
                 ></textarea>
               </div>
             </div>
-            <button type="button" class="btn btn-warning mt-5">Enviar</button>
+            <button type="button" class="btn btn-warning mt-5" id="button">Enviar</button>
+            <button type="button" class="btn btn-warning mt-5" id="buscar">Buscar</button>
           </form>
         </div>
       </div>
@@ -104,13 +107,15 @@
             &copy; 2023<br />
             De Mateus Frazao<br />
             todos os direitos Reservados<br />
+
           </p>
-          <!-- <div class="col-5">
+             <!-- <div class="col-5">
             <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
             <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
           </div> -->
         </div>
       </div>
     </footer>
+    <script src="/scripts/index.js"></script>
   </body>
 </html>
