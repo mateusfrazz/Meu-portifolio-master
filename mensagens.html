@@ -7,7 +7,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+
     <link rel="icon" href="/Images/icone-topo-pagina.png" />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -15,15 +17,16 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/curriculo.css" />
     <link rel="stylesheet" href="/styles/cores.css" />
+    <link rel="stylesheet" href="/styles/mensagens.css" />
 
-    <title>Curriculo</title>
+    <title>Mensagens</title>
   </head>
   <body class="bg-primary">
-    <div class="container" id="container-principal">
-      <div class="row " id="nav-bar">
+    <div class="container">
+      <div class="row fix-top" id="nav-bar">
         <!----------------------inicio navbar--------------->
+        <
         <div class="col-12 fixed-top d-flex justify-content-center">
           <nav class="navbar navbar-expand-lg navbar">
             <!-- inicio do menu hamburguer -->
@@ -41,9 +44,7 @@
                   <a class="nav-link" href="/index.html">Sobre mim </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="/curriculo.html"
-                    >CURRICULO</a
-                  >
+                  <a class="nav-link" href="/curriculo.html">CURRICULO</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/skils.html">SKILLS</a>
@@ -55,7 +56,7 @@
                   <a class="nav-link" href="/contato.html">CONTATO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="/mensagens.html"
+                  <a class="nav-link active" href="/mensagens.html"
                     >MENSAGENS</a
                   >
                 </li>
@@ -64,67 +65,34 @@
           </nav>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-12" id="main">
-          <h1 class="text-primary text-center" id="text-principal">
-            CURRICULO
-          </h1>
-        </div>
-        <div class="row " id="box-content">
-          <div class="col">
-            <p class="text-white" id="text-description">
-              2022 - Design<br />
-              Freelancer<br />
-              Empresa - Joetech
-            </p>
-          </div>
-          <div class="col">
-            <p class="text-white" id="text-curriculo-joetech-description">
-              Trabalhei como designer freelancer na construção de um e-commerce
-              para a Joetec, uma loja de eletrônicos. Nesse projeto, desenvolvi
-              funcionalidades essenciais como sistema de carrinho de compras,
-              envio de e-mails, integração com Gateway de pagamento e cadastro
-              de clientes.
-            </p>
-          </div>
-        </div>
-        <div class="row " id="box-content-2">
-            <div class="col"">
-              <p class="text-white" id="text-description">
-                2023 - Atual <br> 
-                Atuação na Universidade Anhembi Morumbi SP .
-              </p>
-            </div>
-            <div class="col">
-              <p class="text-white" id="text-curriculo-joetech-description-2">
-                  Oferecendo uma previsão para o ano de 2022, com foco na área de Ciência da Computação, no curso de Bacharelado.
-              </p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-12 bg-white text-center" id="container-form">
+          <ul>
+            <li>
+              <h1 class="pt-5">Mateus Frazao</h1>
+              <p>ola como você vai</p>
+            </li>
+            <li>
+              <h1 class="pt-3">Mateus Frazao</h1>
+              <p>ola como você vai</p>
+            </li>
+            <li>
+              <h1 class="pt-3">Mateus Frazao</h1>
+              <p>ola como você vai</p>
+            </li>
+            <li>
+              <h1 class="pt-3">Mateus Frazao</h1>
+              <p>ola como você vai</p>
+            </li>
+          </ul>
         </div>
       </div>
-
-      
-   
+      <div class="col pt-5 text-center">
+        <button class="bg-success" id="btn-limpar">Limpar</button>
+      </div>
     </div>
-
-    <footer class="p-2 bg-dark text-light">
-      <div>
-        <div>
-          <p>
-            &copy; 2023<br />
-            De Mateus Frazao<br />
-            todos os direitos Reservados<br />
-          </p>
-          <!-- <div class="col-5">
-            <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
-            <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
-          </div> -->
-        </div>
-      </div>
-    </footer>
-    <!-----fim do rodape------>
-    <!-- js -->
+    <!-- JavaScript -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link rel="icon" href="/Images/icone-topo-pagina.png" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -18,13 +18,14 @@
     <link rel="stylesheet" href="/styles/contato.css" />
     <link rel="stylesheet" href="/styles/cores.css" />
 
-    <title>Skills</title>
+    <title>Contato</title>
   </head>
   <body class="bg-primary">
     <div class="container" id="container-principal">
       <div class="row fix-top" id="nav-bar">
         <!----------------------inicio navbar--------------->
-        <div class="col-12 d-flex justify-content-center">
+        <
+        <div class="col-12 fixed-top d-flex justify-content-center">
           <nav class="navbar navbar-expand-lg navbar">
             <!-- inicio do menu hamburguer -->
             <button
@@ -52,6 +53,9 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="/contato.html">CONTATO</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/mensagens.html">MENSAGENS</a>
+                </li>
               </ul>
             </div>
           </nav>
@@ -69,14 +73,7 @@
                   placeholder="Nome"
                 />
               </div>
-              <div class="col-5">
-                <label for="inputEmail4">sobrenome</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Sobrenome"
-                />
-              </div>
+
               <div class="col-7 pt-">
                 <label for="inputEmail4">email</label>
                 <input
@@ -86,7 +83,7 @@
                 />
               </div>
               <div class="col-7 mt-4">
-                <label for="Textarea">Textarea</label>
+                <label for="Textarea">Mensagem</label>
                 <textarea
                   class="form-control"
                   id="validationTextarea"
@@ -95,10 +92,25 @@
                 ></textarea>
               </div>
             </div>
-            <button type="button" class="btn btn-warning mt-5">Warning</button>
+            <button type="button" class="btn btn-warning mt-5">Enviar</button>
           </form>
         </div>
       </div>
     </div>
+    <footer class="p-2 bg-dark text-light">
+      <div>
+        <div>
+          <p>
+            &copy; 2023<br />
+            De Mateus Frazao<br />
+            todos os direitos Reservados<br />
+          </p>
+          <!-- <div class="col-5">
+            <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+          </div> -->
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
