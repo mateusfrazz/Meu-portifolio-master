@@ -40,9 +40,6 @@ body{
     border-bottom: 1px solid #F6D61F;
 }
 
-navbar{
-    position: fixed;
-}
 
 .navbar-nav li.nav-item a.nav-link:hover {
     color: var(--cor-acentual-text);
@@ -59,12 +56,26 @@ ul{
 
 /*final da nav-bar*/
 
-#main {
-    padding-top: 120PX;
-    border-width: 1;
+#nav-bar-body{
+    color: white;
+    background-color: #201533;
+    text-align: center;
+}
+
+.navbar-toggler-icon{
+   color:  #fcf9f9;
+   
+}
+
+.navbar-toggler{
+    border: 1px solid white;
     
 }
 
+#nav-itens{
+    width: 100%;
+    
+}
 
 #text-principal{
     font-size: 120px;
@@ -116,6 +127,9 @@ ul{
 
 footer{
     width: 100%;
+    height: 100px;
+    padding-top: 300px;
+    font-family: 'Josefin Sans' !important;
 }
 
 @media (max-width: 635px) {
