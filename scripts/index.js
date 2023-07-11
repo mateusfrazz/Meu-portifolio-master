@@ -3,6 +3,10 @@ let button = document.querySelector('#button');
 let formArray = [];
 
 button.addEventListener('click', ()=> {
+    alert ('oi porra')
+    if(localStorage.meuFormulario) {
+        formArray =  JSON.parse(localStorage.getItem('meuFormulario'))
+    }
     let nomeValue = document.querySelector('#nome').value;
     let emailValue = document.querySelector('#email').value;
     let mensagemValue = document.querySelector('#mensagem').value;
@@ -19,12 +23,6 @@ button.addEventListener('click', ()=> {
 })
 
 
+   
 
-let buscarLista = [];
 
-let buscar = document.querySelector('#buscar');
-buscar.addEventListener('click', ()=> {
-    let buscaListaLocal = localStorage.getItem('meuFormulario');
-    buscarLista.push(JSON.parse(buscaListaLocal))
-    console.log(buscarLista)
-})
