@@ -3,7 +3,6 @@ let button = document.querySelector('#button');
 let formArray = [];
 
 button.addEventListener('click', ()=> {
-    alert ('oi porra')
     if(localStorage.meuFormulario) {
         formArray =  JSON.parse(localStorage.getItem('meuFormulario'))
     }
@@ -21,8 +20,5 @@ button.addEventListener('click', ()=> {
 
     localStorage.setItem('meuFormulario', JSON.stringify(formArray))
 })
-
-
-   
 
 
