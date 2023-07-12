@@ -2,7 +2,7 @@ const ulLista = document.querySelector('#ul-mensagens');
 const limpar = document.querySelector('#btn-limpar');
 
 let buscarLista = [];
-
+// criando a funcao de busca de dados
 function getLista() {
     if(localStorage.meuFormulario) {
         buscarLista = JSON.parse(localStorage.getItem('meuFormulario'));
@@ -10,7 +10,7 @@ function getLista() {
     }
 }
 getLista();
-
+// percorrendo os itens do meu array para listar as mensagens
 buscarLista.forEach((item) => {
     if(buscarLista.length > 0) {
         const li = document.createElement('li');
@@ -22,10 +22,10 @@ buscarLista.forEach((item) => {
         </li>
         `;
         ulLista.appendChild(li);
-        console.log(item)
+        
     }
 })
-
+// limpando as mensagens
 limpar.addEventListener('click', ()=> {
     localStorage.setItem('meuFormulario', [])
     window.location.reload();

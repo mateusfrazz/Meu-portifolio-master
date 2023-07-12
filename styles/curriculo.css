@@ -33,7 +33,7 @@ body{
     background-color: var(--cor-primary-background);
     padding-top: 150px;
     width: 70%;
-    height: 1200px;
+    height: 100%;
 }
 /* inicio navbar*/
 .active{
@@ -69,7 +69,9 @@ ul{
     border: 1px solid white;
     
 }
-
+.navbar-toggler-icon{
+    color: black;
+}
 
 .nav-link{
     color: #fcf9f9;
@@ -100,7 +102,7 @@ ul{
 #box-content{
     background-color: #252446;
     width: 800px;
-    height: 300px;
+    min-height: 300px;
     font-size: 20px;
     border-radius: 12px;
     font-family: 'Josefin Sans' !important;
@@ -139,6 +141,6 @@ ul{
 footer{
     width: 100%;
     height: 100px;
-    padding-top: 300px;
+    margin-top: 200px;
     font-family: 'Josefin Sans' !important;
 }

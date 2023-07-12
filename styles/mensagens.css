@@ -4,7 +4,7 @@ font-face {
 }
  
 body{
-    font-family:"MinhaFonte", Arial, sans-serif;
+    font-family:"MinhaFonte";
 }
 
 #container-form{
@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    font-family:"MinhaFonte", Arial, sans-serif;
+    font-family:"MinhaFonte";
 }
 
 h1{
@@ -24,7 +24,8 @@ h1{
 }
 
 #btn-limpar{
-    width:200px;
+    width:150px;
+    height: 50px;
     border: none;
     border-radius: 9px;
 
