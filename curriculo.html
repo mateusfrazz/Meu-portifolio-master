@@ -17,15 +17,18 @@
     />
     <link rel="stylesheet" href="/styles/curriculo.css" />
     <link rel="stylesheet" href="/styles/cores.css" />
+    <script
+      src="https://kit.fontawesome.com/c6e29541f2.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Curriculo</title>
   </head>
-  <body class="bg-primary">
+  <body class="bg-primary ">
     <div class="container" id="container-principal">
-      <div class="row " id="nav-bar">
-        <!----------------------inicio navbar--------------->
-        <div class="col-12 fixed-top d-flex justify-content-center">
-          <nav class="navbar navbar-expand-lg navbar">
+      <div class="row">
+        <div class="fixed-top" id="nav-bar">
+          <nav class="navbar navbar-expand-lg navbar" id="nav-bar-body">
             <!-- inicio do menu hamburguer -->
             <button
               class="navbar-toggler"
@@ -35,15 +38,17 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="textoNavbar">
-              <ul class="navbar-nav mr-auto">
+              <ul
+                class="navbar-nav d-flex justify-content-center"
+                id="nav-itens"
+              >
                 <li class="nav-item">
                   <a class="nav-link" href="/index.html">Sobre mim </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="/curriculo.html"
-                    >CURRICULO</a
-                  >
+                  <a class="nav-link active " href="/curriculo.html">CURRICULO</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/skils.html">SKILLS</a>
@@ -55,23 +60,21 @@
                   <a class="nav-link" href="/contato.html">CONTATO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="/mensagens.html"
-                    >MENSAGENS</a
-                  >
+                  <a class="nav-link" href="/mensagens.html">MENSAGENS</a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-12" id="main">
+      <div class="row d-flex justify-content-center" id="main">
+        <div class="col-12  d-flex justify-content-center" id="main-box">
           <h1 class="text-primary text-center" id="text-principal">
             CURRICULO
           </h1>
         </div>
         <div class="row " id="box-content">
-          <div class="col">
+          <div class="col text-center">
             <p class="text-white" id="text-description">
               2022 - Design<br />
               Freelancer<br />
@@ -89,7 +92,7 @@
           </div>
         </div>
         <div class="row " id="box-content-2">
-            <div class="col"">
+            <div class="col">
               <p class="text-white" id="text-description">
                 2023 - Atual <br> 
                 Atuação na Universidade Anhembi Morumbi SP .
@@ -108,18 +111,19 @@
    
     </div>
 
-    <footer class="p-2 bg-dark text-light">
+    <footer class="p-2 bg-dark text-light d-flex justify-content-center">
       <div>
-        <div>
-          <p>
-            &copy; 2023<br />
-            De Mateus Frazao<br />
-            todos os direitos Reservados<br />
-          </p>
-          <!-- <div class="col-5">
-            <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
+        <div class="text-center">
+          <p>&copy; Mateus Frazao Corrêa - 2023</p>
+          <a
+            href="https://www.linkedin.com/in/mateus-frazão-607b35174/"
+            class="icons"
+          >
             <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
-          </div> -->
+          </a>
+          <a href="https://github.com/mateusfrazao1">
+            <i class="fa-brands fa-github" style="color: #f6f7f8"></i>
+          </a>
         </div>
       </div>
     </footer>

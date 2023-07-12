@@ -15,18 +15,25 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/c6e29541f2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="icon" href="/Images/icone-topo-pagina.png" />
     <link rel="stylesheet" href="/styles/skills.css" />
     <link rel="stylesheet" href="/styles/cores.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <title>Skills</title>
   </head>
   <body class="bg-primary">
     <div class="container" id="container-principal">
-      <div class="row" id="nav-bar">
-        <!----------------------inicio navbar--------------->
-        <div class="col-12 fixed-top d-flex justify-content-center">
-          <nav class="navbar navbar-expand-lg navbar">
+      <div class="row">
+        <div class="fixed-top" id="nav-bar">
+          <nav class="navbar navbar-expand-lg navbar" id="nav-bar-body">
             <!-- inicio do menu hamburguer -->
             <button
               class="navbar-toggler"
@@ -36,8 +43,12 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="textoNavbar">
-              <ul class="navbar-nav mr-auto">
+              <ul
+                class="navbar-nav d-flex justify-content-center"
+                id="nav-itens"
+              >
                 <li class="nav-item">
                   <a class="nav-link" href="/index.html">Sobre mim </a>
                 </li>
@@ -66,7 +77,7 @@
           <h1 class="text-primary text-center" id="text-principal">SKILLS</h1>
         </div>
       </div>
-      <div class="row" id="skills-description">
+      <div class="row " id="skills-description">
         <!-- perfil-skils -->
         <div class="col-12" id="content-skills-perfile">
           <img src="/Images/ICONE-PERFIL (1).svg" alt="" />
@@ -100,7 +111,7 @@
 
       <div class="row mt-5" id="cards">
         <!-- card-js-1 -->
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 animate__animated animate__pulse animate__delay-1s">
           <div class="card bg-info" style="width: 16rem" id="card-figma">
             <img
               class="card-img-top bg-info"
@@ -119,7 +130,7 @@
         <!-- final card-1 -->
 
         <!-- inicio card-2 -->
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 animate__animated animate__pulse animate__delay-2s">
           <div class="card border-0" style="width: 15rem" id="card-html">
             <img
               class="card-img-top bg-info border-0"
@@ -138,7 +149,7 @@
         <!-- final-card-2 -->
 
         <!-- inicio card 3 -->
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3 animate__animated animate__pulse animate__delay-3s">
           <div class="card border-0" style="width: 15rem">
             <img
               class="card-img-top bg-info border-0"
@@ -158,7 +169,7 @@
         <!-- final-card-3 -->
 
         <!-- inicio card-4 -->
-        <div class="col-sm-3 col-md-4 col-lg-2">
+        <div class="col-sm-3 col-md-4 col-lg-3 animate__animated animate__pulse animate__delay-4s">
           <div class="card border-0" style="width: 15rem">
             <img
               class="card-img-top bg-info border-0"
@@ -168,26 +179,26 @@
             <div class="card-body bg-info">
               <h1 class="card-title text-white">CSS</h1>
               <p class="card-text text-white">
-                É uma linguagem de estilos utilizada para definir a aparência e
-                o layout de elementos em uma página web
+                A linguagem de marcação CSS é amplamente utilizada com HTML ou XHTML para editar, alinhar e trabalhar nos elementos da pagina.
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="p-2 bg-dark text-light">
+    <footer class="p-2 bg-dark text-light d-flex justify-content-center">
       <div>
-        <div>
-          <p>
-            &copy; 2023<br />
-            De Mateus Frazao<br />
-            todos os direitos Reservados<br />
-          </p>
-          <!-- <div class="col-5">
-            <i class="fa-brands fa-github" style="color: #f6f7f8"></i></div>
+        <div class="text-center">
+          <p>&copy; Mateus Frazao Corrêa - 2023</p>
+          <a
+            href="https://www.linkedin.com/in/mateus-frazão-607b35174/"
+            class="icons"
+          >
             <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
-          </div> -->
+          </a>
+          <a href="https://github.com/mateusfrazao1">
+            <i class="fa-brands fa-github" style="color: #f6f7f8"></i>
+          </a>
         </div>
       </div>
     </footer>
